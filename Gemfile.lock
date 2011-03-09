@@ -1,0 +1,46 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    RedCloth (4.2.7)
+    activesupport (2.3.6)
+    adsf (1.0.1)
+      rack (>= 1.0.0)
+    builder (3.0.0)
+    cri (1.0.1)
+    mail (2.2.5)
+      activesupport (>= 2.3.6)
+      mime-types
+      treetop (>= 1.4.5)
+    mime-types (1.16)
+    nanoc (3.1.6)
+      nanoc3 (>= 3.1.6)
+    nanoc3 (3.1.6)
+      cri (>= 1.0.0)
+    polyglot (0.3.1)
+    pony (1.1)
+      mail (> 2.0)
+    rack (1.2.1)
+    rake (0.8.7)
+    rdiscount (1.6.8)
+    sinatra (1.2.0)
+      rack (~> 1.1)
+      tilt (>= 1.2.2, < 2.0)
+    tilt (1.2.2)
+    treetop (1.4.9)
+      polyglot (>= 0.3.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  RedCloth
+  activesupport (= 2.3.6)
+  adsf
+  builder
+  mail (= 2.2.5)
+  nanoc
+  pony
+  rack
+  rake
+  rdiscount
+  sinatra
