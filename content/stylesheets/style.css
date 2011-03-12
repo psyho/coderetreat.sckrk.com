@@ -520,6 +520,15 @@ h6.style2 {
 #footer p span {
 	color:#d21034;
 }
+#footer p a {
+  color: #000;
+  font-family: Georgia, serif;
+  text-decoration: none;
+}
+#footer p a em {
+  color: #069;
+  font-style: italic;
+}
 #footer p b {
 	color:#292929;
 	font-weight:normal;
