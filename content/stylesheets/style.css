@@ -442,6 +442,11 @@ h6.style2 {
 	font-size:.85em;
 }
 
+/*for remote links, not sponsors on main page*/
+a.gray {
+	color:#b60000;
+}
+
 /*========================== HEADER ===========================*/
 
 #header ul {
