@@ -1,35 +1,35 @@
 /*=========================== TAGS ============================*/
 
-* { 
-	margin:0; 
+* {
+	margin:0;
 	padding:0;
 }
 
 html {
 	min-width:973px;
-} 
+}
 
-body { 
-	background:url(/images/tail-top.gif) repeat-x left top #fff; 
+body {
+	background:url(/images/tail-top.gif) repeat-x left top #fff;
 	font-family:Arial, Helvetica, sans-serif;
 	border-top:7px solid #cdcdcd;
-	font-size:100%; 
-	line-height:1em; 
-	color:#7b7b7b; 
+	font-size:100%;
+	line-height:1em;
+	color:#7b7b7b;
 	min-width:973px;
 }
 
-object { 
-	vertical-align:top; 
+object {
+	vertical-align:top;
 	outline:none;
 }
 
-input, 
-textarea, 
-select { 
-	font-family:Arial, Helvetica, sans-serif; 
-	font-size:1em; 
-	vertical-align:middle; 
+input,
+textarea,
+select {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:1em;
+	vertical-align:middle;
 	font-weight:normal;
 }
 
@@ -37,103 +37,103 @@ fieldset {
 	border:0;
 }
 
-p { 
-	margin:0; 
+p {
+	margin:0;
 	padding:0;
 }
 
-img { 
-	border:0; 
-	vertical-align:top; 
+img {
+	border:0;
+	vertical-align:top;
 	text-align:left;
 }
 
-ul, 
-ol { 
+ul,
+ol {
 	list-style:none;
 }
 
-#main { 
-	width:973px; 
+#main {
+	width:973px;
 	margin:0 auto;
 }
-#header { 
+#header {
 	height:299px;
-	
+
 	position:relative;
 }
-#header, 
-#content, 
-#footer { 
+#header,
+#content,
+#footer {
 	font-size:0.814em;
 }
-.col-1, 
-.col-2, 
-.col-3 { 
+.col-1,
+.col-2,
+.col-3 {
 	float:left;
 }
 
 
 /*========================== ALIGMENT =========================*/
 
-.fleft { 
+.fleft {
 	float:left;
 }
 
-.fright { 
+.fright {
 	float:right;
 }
 
-.clear { 
+.clear {
 	clear:both;
 }
 
-.alignright { 
+.alignright {
 	text-align:right;
 }
 
-.aligncenter { 
+.aligncenter {
 	text-align:center;
 }
 
-.wrapper { 
-	width:100%; 
+.wrapper {
+	width:100%;
 	overflow:hidden;
 }
 
-.container { 
+.container {
 	width:100%;
 }
 
 /*=========================== TAILING =========================*/
 
-.tail-top { 
+.tail-top {
 	background:url(/images/tail-top.gif) left top repeat-x #fff;
 }
 
 /*=========================== FORMS ===========================*/
 
-#contacts-form .field { 
+#contacts-form .field {
 	height:40px;
 }
 #contacts-form input {
-	width:245px; 
-	padding:3px 12px 3px 12px; 
-	background:#f5f5f5; 
-	border:1px solid #dbdcdd; 
-	vertical-align:top;	
+	width:245px;
+	padding:3px 12px 3px 12px;
+	background:#f5f5f5;
+	border:1px solid #dbdcdd;
+	vertical-align:top;
 	line-height:1.2em;
 	color:#96978e;
 }
-#contacts-form textarea { 
-	width:245px; 
-	height:136px; 
+#contacts-form textarea {
+	width:245px;
+	height:136px;
 	overflow:auto;
 	color:#96978e;
-	background:#f5f5f5; 
-	border:1px solid #dbdcdd; 
+	background:#f5f5f5;
+	border:1px solid #dbdcdd;
 	padding:3px 12px 3px 12px;
-	margin-bottom:18px; 
+	margin-bottom:18px;
 }
 
 /*========================== LISTS ============================*/
@@ -294,21 +294,21 @@ ol {
 
 /*========================== OTHER ============================*/
 
-.img-indent { 
-	padding-bottom:20px; 
+.img-indent {
+	padding-bottom:20px;
 }
 
-.img-box1 { 
-	width:100%; 
+.img-box1 {
+	width:100%;
 	overflow:hidden;
 	padding-bottom:14px;
 }
-.img-box1 img { 
-	float:left; 
+.img-box1 img {
+	float:left;
 	margin:0 20px 0 0;
 }
 
-p { 
+p {
 	margin-bottom:20px;
 	line-height:1.38em;
 }
@@ -316,8 +316,8 @@ p {
 	margin-bottom:12px;
 }
 
-.phone { 
-	float:right; 
+.phone {
+	float:right;
 	margin-right:80px;
 }
 
@@ -368,8 +368,8 @@ dl dd {
 
 /*================= TXT, LINKS, LINES, TITLES =================*/
 
-a {	
-	color:#000; 
+a {
+	color:#000;
 	outline:none;
 }
 a:hover {
@@ -409,7 +409,7 @@ h5 {
 	font-weight:normal;
 	margin:-26px 0 30px 0;
 }
-h6 {	
+h6 {
 	color:#000;
 	text-transform:uppercase;
 	font-size:.85em;
@@ -444,6 +444,11 @@ h6.style2 {
 	text-transform:uppercase;
 	font-weight:bold;
 	font-size:.85em;
+}
+
+/*for remote links, not sponsors on main page*/
+a.gray {
+	color:#b60000;
 }
 
 /*========================== HEADER ===========================*/
@@ -508,6 +513,18 @@ h6.style2 {
 }
 #content .indent1 {
 	padding-bottom:23px;
+}
+
+/*========================= PICASA GALLERY=====================*/
+#gallery {
+    padding-left: 5px
+}
+
+.galleryItem {
+    border: 1px solid silver;
+    margin: 5px;
+    padding: 2px;
+    float: left;
 }
 
 /*========================= FOOTER ============================*/
@@ -590,7 +607,7 @@ h6.style2 {
 /*=========================*/
 
 
-#footer { 
+#footer {
 	height:85px;
 	border-top:4px solid #dfdfdf;
 }
