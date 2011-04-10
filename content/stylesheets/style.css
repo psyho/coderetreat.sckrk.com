@@ -362,6 +362,10 @@ dl dd {
 	margin-bottom:16px;
 }
 
+.no-emphasis {
+	color:#7b7b7b; 
+}
+
 /*================= TXT, LINKS, LINES, TITLES =================*/
 
 a {	
@@ -440,11 +444,6 @@ h6.style2 {
 	text-transform:uppercase;
 	font-weight:bold;
 	font-size:.85em;
-}
-
-/*for remote links, not sponsors on main page*/
-a.gray {
-	color:#b60000;
 }
 
 /*========================== HEADER ===========================*/
