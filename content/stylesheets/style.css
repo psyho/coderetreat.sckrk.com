@@ -362,6 +362,22 @@ dl dd {
 	margin-bottom:16px;
 }
 
+.no-emphasis {
+	color:#7b7b7b; 
+}
+
+/*========================= PICASA GALLERY=====================*/
+#gallery {
+	width: 1024px;
+}
+
+.galleryItem {
+	border: 1px solid silver;
+	margin: 5px;
+	padding: 2px;
+	float: left;
+}
+
 /*================= TXT, LINKS, LINES, TITLES =================*/
 
 a {	
