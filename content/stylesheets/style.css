@@ -362,6 +362,10 @@ dl dd {
 	margin-bottom:16px;
 }
 
+.no-emphasis {
+	color:#7b7b7b; 
+}
+
 /*================= TXT, LINKS, LINES, TITLES =================*/
 
 a {
