@@ -22,7 +22,7 @@ var picasa = {
 			this.totalItems = this.itemsArray.length;
 
  			for (var x = 0; x < this.totalItems; x++) {
-				jQuery('#' + this.containerId).append('<div onClick="document.location.href=\''+this.itemsArray[x].media$group.media$content[0].url+'\'" class="picasaGalleryItem" style="cursor: pointer; width: ' + this.imageSize + 'px; height: ' + this.imageSize + 'px; background: url(' + this.itemsArray[x].media$group.media$thumbnail[0].url + ') no-repeat center center; "></div>');
+				jQuery('#' + this.containerId).append('<div onClick="document.location.href=\''+this.itemsArray[x].media$group.media$content[0].url+'\'" class="galleryItem" style="cursor: pointer; width: ' + this.imageSize + 'px; height: ' + this.imageSize + 'px; background: url(' + this.itemsArray[x].media$group.media$thumbnail[0].url + ') no-repeat center center; "></div>');
 			}
 		};
 

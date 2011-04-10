@@ -512,11 +512,11 @@ a.gray {
 }
 
 /*========================= PICASA GALLERY=====================*/
-#picasaGallery {
-    width: 1024px;
+#gallery {
+    padding-left: 5px
 }
 
-.picasaGalleryItem {
+.galleryItem {
     border: 1px solid silver;
     margin: 5px;
     padding: 2px;
