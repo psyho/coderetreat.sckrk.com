@@ -376,6 +376,14 @@ a:hover {
 	text-decoration:none;
 }
 
+header h2 {
+  position: inherit;
+	color:#b60000;
+  text-align: center;
+  padding: 10px;
+  font-size: 32px;
+}
+
 h2 {
 	position:absolute;
 	left:0;
