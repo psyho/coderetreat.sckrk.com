@@ -499,15 +499,6 @@ a.gray {
     top: 260px;
 }
 
-.legacy {
-	position: absolute;
-	background:url(/images/legacy.png) left center no-repeat;
-	width: 193px;
-	height: 92px;
-	left: -25px;
-	top: 95px;
-}
-
 .sponsor-logo {
 	float:left;
 	margin-right:30px;
